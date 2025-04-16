@@ -1,7 +1,7 @@
----
+---   
 layout: home
 title: Welcome
----
+---  
 
 # 안녕하세요 👋
 

@@ -1,0 +1,16 @@
+# .github/workflows/ci.yml
+name: Test Site
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3
+      - run: bundle install
+      - run: bundle exec jekyll build

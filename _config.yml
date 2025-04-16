@@ -1,23 +1,8 @@
-# The Site Configuration
-
-# Import the theme
-theme: jekyll-theme-chirpy
-
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
-lang: ko
-
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Asia/Shanghai
-
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
-
-title: 새벽별빛바다 # the main title
-
-tagline: 간단한 개발 일지 # it will display as the subtitle
-
+theme: jekyll-theme-chirpy # 사이트 테마
+lang: ko # 사이트 기본 언어
+timezone: Asia/Seoul # 블로그 시간/날짜
+title: 새벽별빛바다 # 사이트 메인 제목
+tagline: 간단한 개발 일지 # 부제목 타이틀 아래 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 

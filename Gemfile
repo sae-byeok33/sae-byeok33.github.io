@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-gemspec
-
 group :jekyll_plugins do
   gem "jekyll-theme-chirpy", "~> 7.2"
 end

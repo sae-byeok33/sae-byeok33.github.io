@@ -2,7 +2,7 @@ theme: jekyll-theme-chirpy # 사이트 테마
 lang: ko # 사이트 기본 언어
 timezone: Asia/Seoul # 블로그 시간/날짜
 title: 새벽별빛바다 # 사이트 메인 제목
-tagline: 간단한 개발 일지 # 부제목 타이틀 아래 
+tagline: 컴퓨터가 조아 # 부제목 타이틀 아래 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 url: "https://sae-byeok33.github.io" # 사이트 URL

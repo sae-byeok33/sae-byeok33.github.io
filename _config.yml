@@ -57,7 +57,7 @@ theme_mode: # [light | dark]
 #
 # e.g. 'https://cdn.com'
 cdn: "https://chirpy-img.netlify.app" # 이미지
-avatar: "/commons/avatar.jpg" # 내 프로필 아바타
+avatar: "https://sae-byeok33.github.io/blog-images/commons/profile.gif" # 내 프로필 아바타
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

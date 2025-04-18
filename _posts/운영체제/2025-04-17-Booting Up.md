@@ -78,3 +78,12 @@ MBR에는 실제 OS를 로드할 수 있는 코드가 포함됨
 
 
 <hr style="border: none; border-top: 1px solid #ccc; height: 1px; width: 100%">
+
+
+#### the master boot record (MBR)
+특정 512 바이트 파일이 저장장치의 섹터1(주소0)에 기록된다  
+포함내용  
+    → 446bytes의 실행 가능한 코드
+    → 4개의 파티션 엔트리
+전체 OS를 저장하기에는 너무 작다  
+chain-loading sequence를 시작한다

@@ -4,7 +4,7 @@ date: 2025-04-17 14:00:00 +0900
 category: [컴퓨터공학,운영체제]
 ---
 # BOOTING UP
-우리가 컴퓨터를 실행시키기 위해서 파워버튼을 누르면 무슨일이 일어날까?  
+우리가 컴퓨터를 실행시키기 위해서 파워버튼을 누르면 일어나는일
 
 <hr style="border: none; border-top: 1px solid #ccc; height: 1px; width: 100%">
 

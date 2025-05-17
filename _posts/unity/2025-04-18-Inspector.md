@@ -24,7 +24,7 @@ category: [게임 프로그래밍,unity]
 **Scale** : 오브젝트의 크기    
 사슬 아이콘은 활성화시 X Y Z 축의 크기가 연결된다  
 
-## Mesh Filter
+## Mesh Renderer
 ![alt text](https://sae-byeok33.github.io/blog-images/posts_unity/Mesh.png)  
 ### Materials
 큐브에 적용된 materials  
@@ -52,5 +52,40 @@ Contribute Global Illumination 켜야 활성화 되는 옵션
     -> Light Probes : 주변 Light Probe에서 계산된 GI를 받아서 동적 오브젝트에도 부드러운 간접광을 표현  
     -> Lightmaps : 라이트맵에 굽힌 조명을 받아 사용  
 
+### Probes
+**Light Probes**  
+오브젝트가 간접광을 받는 방식 설정  
 
-## Mesh Renderer
+**Anchor Override**  
+빛 계산 기준이 될 위치를 수동으로 지정함  
+
+### Ray Tracing 
+RTX계열 GPU가 있어야만 사용이 가능함!!    
+
+**Ray Tracing Mode**  
+광선 추적시 오브젝트의 움직임 처리 방식 설정  
++ off : 광선 추적 기능을 끔  
++ static : 움직이지 않는 오브젝트로 간주, 미리 계산된 결과를 사용 (성능 향상)  
++ Dynamic Transform : 움직일 수 있는 오브젝트로 간주, 움직임에 따라 실시간으로 광선 계산
+
+**Procedural Geometry**  
+기존 mesh가 아닌 코딩으로 만든 지오메트리도 광선 추적을 가능하게 하는 옵션  
+
+**Prefer Fast Trace**  
+광선 추적용 성능을 튜닝하는 옵션  
+
+### Additional Settings
+**Motion Vectors**   
+오브젝트의 움직임 정보를 GPU에 전달함  
+모션 블러, 시간 기반 이펙트, 후처리 효과 등에 사용됨  
+
++ Camera Motion Only : 카메라 움직임만 반영  
++ Per Object Motion : 오브젝트의 실제 움직임까지 추적 -> 모션 블러 등이 정확해짐  
++ Force No Motion : 어떤 모션도 전달히지 않음  
+
+**Dynamic Occlusion**  
+이 오브젝트가 다른 오브젝트에 의해 가려졌을 때, 렌더링을 생략함 -> 성능 최적화  
+
+**Rendering Layer Mask**  
+이 오브젝트가 어떤 렌더링 레이어에 속하는지 지정  
+

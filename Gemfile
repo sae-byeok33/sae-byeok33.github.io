@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 group :jekyll_plugins do
-  gem "jekyll-theme-chirpy", "~> 7.2"
+  gem "jekyll-theme-chirpy", "~> 7.3"
 end
 
 group :test do
